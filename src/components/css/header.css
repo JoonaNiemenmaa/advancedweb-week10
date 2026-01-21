@@ -1,0 +1,19 @@
+.header {
+	display: flex;
+
+	height: 100px;
+	width: 100%;
+
+	padding: 10px;
+	margin: 0;
+
+	background-color: gray;
+}
+
+nav {
+	margin-left: auto;
+}
+
+ul * {
+	margin: 4px;
+}
