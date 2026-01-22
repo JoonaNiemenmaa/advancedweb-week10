@@ -39,7 +39,7 @@ export default function About() {
 						setCount(count + COUNT);
 					}}
 				>
-					Load more
+					Show more
 				</button>
 			) : null}
 		</>
