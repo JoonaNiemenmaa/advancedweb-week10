@@ -12,6 +12,7 @@ export default function Header() {
 					<a href="/">{t("Home")}</a>
 					<a href="/about">{t("About")}</a>
 					<button
+						id="fi"
 						onClick={() => {
 							i18n.changeLanguage("fi");
 						}}
@@ -19,6 +20,7 @@ export default function Header() {
 						FI
 					</button>
 					<button
+						id="en"
 						onClick={() => {
 							i18n.changeLanguage("en");
 						}}
