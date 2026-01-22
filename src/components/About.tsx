@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./css/about.css";
 
 type TItem = {
 	title: string;
@@ -19,13 +20,13 @@ export default function About() {
 	let key = 0;
 
 	return (
-		<ul>
+		<div className="grid-container">
 			{items.map((item) => (
-				<div key={key++}>
+				<div className="grid-item" key={key++}>
 					<h3>{item.title}</h3>
 					<p>{item.body}</p>
 				</div>
 			))}
-		</ul>
+		</div>
 	);
 }
